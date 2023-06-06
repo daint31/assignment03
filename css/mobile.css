@@ -1,0 +1,68 @@
+@media (max-width: 739px) {
+  section > .container {
+    width: auto;
+  }
+
+  .banner-info h1 {
+    font-size: 36px;
+  }
+
+  .nav-item:nth-child(3) {
+    width: 50px;
+  }
+
+  .nav-item {
+    border: none;
+    display: flex;
+  }
+
+  .nav-item:last-child {
+    border-right: none;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .grid-item ul {
+    padding-left: 0;
+  }
+
+  .cert-item {
+    border-bottom: 2px solid #d6c08d;
+  }
+  .d-sm-flex {
+    flex-direction: column;
+  }
+  .row {
+    width: 100%;
+  }
+
+  .container-item {
+    border: 1px solid var(--border-color);
+  }
+
+  .g-col-xs-12 {
+    grid-column: 1/-1;
+  }
+
+  .contact ul {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .contact li {
+    margin-bottom: 12px;
+  }
+
+  .project-date {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}

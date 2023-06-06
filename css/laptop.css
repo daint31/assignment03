@@ -1,0 +1,51 @@
+@media (min-width: 1181px) {
+  .container {
+    height: 100%;
+  }
+  .nav-item {
+    position: relative;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-item:nth-child(3) {
+    border-left: none;
+  }
+  .nav-item:nth-child(4) {
+    border-left: none;
+  }
+  .nav-item .img {
+    top: 0;
+  }
+
+  .g-col-lg-4 {
+    border: 1px solid var(--border-color);
+  }
+
+  .border-cert::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #d6c08d;
+    top: 50%;
+  }
+
+  .border-cert::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100px;
+    background-color: #d6c08d;
+    transform: rotate(90deg);
+    left: 45%;
+    top: 17%;
+  }
+
+  .project-date {
+    display: flex;
+    gap: 16px;
+  }
+}
